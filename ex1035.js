@@ -1,5 +1,5 @@
 // entrada
-let input = require('fs').readFileSync('dev/stdin', 'utf-8');
+let input = require('fs').readFileSync('dev/stdin', 'utf-8'); //adicionar uma barra antes do 'dev' para funcionar no beecrowd
 let [a, b, c, d] = input.split(' ').map(n => parseInt(n));
 
 // processamento
